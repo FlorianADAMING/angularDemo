@@ -10,8 +10,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinTable;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
+import javax.persistence.Table;
 
 @Entity
+@Table
 public class Utilisateur implements Serializable{
 
 	/**
